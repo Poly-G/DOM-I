@@ -66,13 +66,14 @@ const button = document.querySelector('.cta button')
 button.innerText = siteContent['cta']['button'];
 
 // MAIN CONTENT
-
+// const featuresContent = document.querySelector('')
 
 
 // CONTACT
 let contactH4 = document.querySelector('.contact h4');
 contactH4.innerText = siteContent["contact"]["contact-h4"];
 let contact = document.querySelectorAll('.contact p');
+contact[0].innerHTML = '123 Way 456 Street <br> Somewhere, USA'
 contact[1].innerText = siteContent["contact"]["phone"];
 contact[2].innerText = siteContent["contact"]["email"];
 
