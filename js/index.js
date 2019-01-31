@@ -67,3 +67,15 @@ button.innerText = siteContent['cta']['button'];
 
 // MAIN CONTENT
 
+
+
+// CONTACT
+let contactH4 = document.querySelector('.contact h4');
+contactH4.innerText = siteContent["contact"]["contact-h4"];
+let contact = document.querySelectorAll('.contact p');
+contact[1].innerText = siteContent["contact"]["phone"];
+contact[2].innerText = siteContent["contact"]["email"];
+
+// FOOTER
+let footer = document.querySelector('footer p');
+footer.innerText = siteContent["footer"]["copyright"];
